@@ -1,18 +1,25 @@
 body {
-  background-color: #f5f5f5; /* світло-сірий фон */
-  font-family: Arial, sans-serif; /* гарний шрифт */
-  text-align: center; /* текст по центру */
-  margin: 0;
-  padding: 20px;
+  background: linear-gradient(to right, red, yellow); /* червоний → жовтий */
+  height: 100vh;   /* фон на всю висоту екрана */
+  margin: 0;       /* прибираємо стандартні відступи браузера */
+  display: flex;   /* щоб красиво вирівняти текст */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: white;
 }
- 
+
+/* Заголовок */
 h1 {
-  color: blue;
+  font-size: 48px;
+  text-shadow: 2px 2px 8px black;
 }
- 
+
+/* Абзац */
 p {
   font-size: 20px;
-  color: gray;
+  text-shadow: 1px 1px 5px black;
 }
  
 button {
